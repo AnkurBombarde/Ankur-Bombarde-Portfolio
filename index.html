@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Internship</a></li>
+                <li><a href="#">BE Project</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#Internship">Internship</a>
+                            <a href="#BE">BE Project</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button id="contactBtn" class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center" style="padding-bottom: 5rem; border-radius: 10px;">
+                        <img src="./images/Photo2-removebg-preview.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Ankur Bombarde</h6>
+                        <h1>I’m a Frontend <span>Developer</span></h1>
+                        <p>A passionate web and Android app developer with experience in creating responsive web applications using HTML, CSS, and JavaScript. Skilled in designing user-friendly interfaces, optimizing performance, and building native Android apps with Kotlin and intuitive UI/UX design.
+                        </p>
+                        <div>
+                            <button id="downloadBtn" class="btn btn-secondary">DOWNLOAD Resume</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src=".\images\Photo2.JPG" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I’m Ankur Bombarde.</h3>
+                    <p style="text-align: justify;"> A passionate and dedicated individual with a keen interest in web and Android app development, I have demonstrated proficiency in creating dynamic, responsive web applications using HTML, CSS, and JavaScript, along with experience in designing user-friendly interfaces and optimizing web performance. Additionally, I have hands-on experience in building native Android applications using Kotlin, developing mobile apps with intuitive UI/UX design.</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/ankur_0804/?hl=en"><img src="./images/Instagram.svg" alt="Instagram"></a>
+                        <a href="https://www.linkedin.com/in/ankur-bombarde-760589229/"><img src="./images/LinkedIn.svg" alt="LinkedIn"></a>
+                        <a href="https://github.com/AnkurBombarde"> <img src="./images/Github.svg" alt="GitHub"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="Projects">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Projects</h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/Project1.svg" alt="">
+                        <h2 style="color: #4CAF50;text-align: justify;"> <a href="https://github.com/AnkurBombarde/InternshipProject" target="_blank">Healthcare Diabetes Prediction</a></h2>
+                        <p> The project focused on developing a predictive model to identify individuals at risk of diabetes using various demographic, lifestyle, and
+                            health-related factors. With 9 features and 770 data entries, the project involved extensive data preprocessing, exploratory data
+                            analysis, feature engineering, model selection, and evaluation. Four predictive models were implemented to determine the best
+                            accuracy:<b> Logistic Regression (83.9%), Random Forest (93.9%), Decision Tree (72.8%), and KNN (95.1%).</b>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Project2.svg" alt="">
+                        <h2 style="color: #4CAF50;text-align: justify;"> <a href="https://github.com/AnkurBombarde/Projects/tree/main/Crime%20Management%20System" target="_blank">Crime Management System</a></h2>
+                        <p>The Crime Management Database is a mini project designed to streamline the tracking and management of criminal records using a
+                            user-friendly graphical interface built with Python's Tkinter library and a robust SQL database. This application facilitates efficient
+                            handling of crime data, enhancing the ability to manage and retrieve information related to criminal activities
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Project3.svg" alt="">
+                        <h2 style="color: #4CAF50;text-align: justify;"> <a href="https://github.com/AnkurBombarde/ProfilePeek---Discover-profiles-and-their-locations-effortlessly" target="_blank">ProfilePeek---Discover profiles and their locations effortlesslym</a></h2>
+                        <p>ProfilePeek is a simple and responsive web app that allows users to search for people by name and view their detailed profiles. It provides a brief profile summary along with an interactive map displaying the person's location. With a user-friendly interface, ProfilePeek ensures seamless access across both desktop and mobile devices.
+                        </p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>You can download my Resume.</h1>
+            <button id="downloadBtn" class="btn btn-primary" onclick="window.location.href='./files/Ankur Bombarde Resume.pdf';" download>Download Resume</button>
+        </section>
+        
+
+        <section id="Internship" class="work" style="background: rgb(240,240,240); /* Changed background color */
+    background: linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(200,200,250,1) 35%, rgba(180,200,210,1) 100%); /* Changed gradient colors */">
+            <div class="container">
+                <h1 class="section-heading"><span>Internship</span> experience</h1>
+                <br>
+                <p><span style="color: #32a7ab; font-weight: bold;"> Internship Summary: </span> Healthcare Diabetes Prediction Using Machine Learning</p>
+                <p><span style="color: #32a7ab; font-weight: bold;"> Duration: 6 Weeks</span></p>
+                <p style="text-align: justify;">
+                    During the six-week internship in data analytics, I had the opportunity to delve into the realm of healthcare analytics, specifically focusing on predicting diabetes using machine learning algorithms. The project aimed to leverage data-driven approaches to enhance healthcare outcomes and contribute to preventive medicine.
+                    The core of the project centered around developing a predictive model to identify individuals at risk of diabetes based on various demographic, lifestyle, and health-related factors. This involved:
+                    <ul>
+                        <li>Extensive data preprocessing</li>
+                        <li>Exploratory data analysis</li>
+                        <li>Feature engineering</li>
+                        <li>Model selection and evaluation</li>
+                    </ul><br>
+                    Four predictive models were implemented to determine the best accuracy:
+                    <ul>
+                        <li >Random Forest (93.9%)</li>
+                        <li >Logistic Regression (83.9%)</li>
+                        <li >Decision Tree (72.8%)</li>
+                        <li >KNN (95.1%)</li>
+                    </ul>
+                    
+                </p>
+            </div>
+        </section>
+        <section id="BE" class="blog">
+            <div class="container">
+                <h1 class="section-heading">Final Year <span>Project</span></h1>
+                <p style="padding-top: 3rem; text-align: justify;">
+                    <span style="color: #3DCFD3;" class="more-space">TextEcho: Dynamic Voice Generation</span> is an advanced Text-to-Speech (TTS) system that enables seamless text conversion from images, PDFs, and books using Optical Character Recognition (OCR). Designed as an API, it allows developers to integrate its features into applications effortlessly. Unlike most TTS tools, TextEcho offers customizable voice generation using Tacotron 2 and WaveNet, allowing users to create personalized, natural-sounding speech. Additionally, it supports multiple languages, enhancing accessibility and usability for diverse users.
+                </p>
+                <p style="color: white; font-size: 1.5rem; text-align: center; padding-bottom: 5rem;">This project is patented.</p>
+                <center><p style="color: grey; font-size: 2rem; color: #4CAF50; font-weight: bold;">Feature</p></center>
+                <ul class="custom-arrow" style="text-align: justify; color: grey;">
+                    <li><span style="color: #3DCFD3;">Customizable Voice Output</span> - Generates speech that replicates the user's unique voice characteristics while maintaining clarity and efficiency.</li>
+                    <li><span style="color: #3DCFD3;">Multi-Source Text Processing</span> – Extracts and processes text from various sources, including articles, papers, notes, images, and PDFs.</li>
+                    <li><span style="color: #3DCFD3;">Personalized & Realistic Speech</span> – Uses deep learning neural networks (Tacotron 2 & WaveNet) for natural, user-specific voice synthesis.</li>
+                    <li><span style="color: #3DCFD3;">Text Processing Module</span> – Cleans and prepares text for synthesis.</li>
+                    <li><span style="color: #3DCFD3;">Voice Cloning Module</span> – Creates a personalized voice model.</li>
+                    <li><span style="color: #3DCFD3;">Speech Synthesis Module</span> – Converts text into speech using the custom voice.</li>
+                    <li><span style="color: #3DCFD3;">Accessibility & Inclusivity</span> – Benefits individuals with reading difficulties or visual impairments by providing an auditory alternative to reading.</li>
+                    <li><span style="color: #3DCFD3;">Real-Time & Efficient Processing</span> – Ensures fast and smooth text-to-speech conversion for seamless user experience.</li>
+                    <li><span style="color: #3DCFD3;">Speech Storage & Download</span> – Allows users to save, replay, and download generated speech for offline access.</li>
+                    <li><span style="color: #3DCFD3;">Multi-Language Support</span> – Enables users from different linguistic backgrounds to access content in their preferred language.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                
+                <div class="contact-cards" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                    <div class="card">
+                        <img src="./images/LinkedIn.svg" alt="LinkedIn Icon">
+                        <h1>Get in Touch</h1>
+                        <a href="https://www.linkedin.com/in/ankur-bombarde-760589229" target="_blank">LinkedIn</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/Email.svg" alt="Email Icon">
+                        <h1>Email</h1>
+                        <a href="mailto:ankurbombarde@gmail.com">ankurbombarde@gmail.com</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/Github.svg" alt="Github Icon">
+                        <h1>GitHub</h1>
+                        <a href="https://github.com/AnkurBombarde" target="_blank">Ankur Bombarde</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="copyright">
+                Copyright <span id="current-year"></span> © Ankur Bombarde
+            </div>
+            <script>
+                document.getElementById('current-year').textContent = new Date().getFullYear();
+            </script>
+        </footer>
+        
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
